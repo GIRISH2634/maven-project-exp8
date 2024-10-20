@@ -8,11 +8,10 @@
 
     <dependencies>
         <!-- JUnit dependency for testing -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
+      <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.11.0</version> <!-- Or the latest version compatible with your Chrome version -->
         </dependency>
 
         <!-- Selenium Java dependency -->
